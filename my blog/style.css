@@ -1,0 +1,30 @@
+body{
+    background-color: azure;
+}
+h1{
+    color: firebrick;
+    text-shadow: 3px 2px 2px grey;
+}
+h2{
+    color: darkred;
+}
+h3{
+    color: crimson;
+}
+p{
+    color: rgb(69, 120, 172);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.T1{
+    color: brown;
+}
+a:hover{
+    color: red;
+}
+a:link{
+    text-decoration: none;
+}
+a{
+    cursor: pointer;
+}
