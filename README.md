@@ -3,3 +3,4 @@ Make a plan to try and learn something new each day, whether its coding, history
 A blog on me learning basic front end development. 
 Still a working progress but will get better
 Help at improvement is always welcomed.
+So pyhton is one of my first chosen languages to learn and its definitely interesting.
