@@ -1,0 +1,112 @@
+
+body
+{
+    background-image: url(cars2.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    padding: 20px;
+    margin-top: 40px,
+
+}
+
+.main-nav li
+{
+    display: inline-block;
+    
+}
+
+.main-nav li a
+{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: "monospace",sans-serif;
+    font-size: 19px;
+
+}
+
+.main-nav li.active a
+{
+    border: 1px solid darkorange;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid darkorange;
+}
+
+.head
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+h1
+{
+    color:darkorange;
+    font-size: 65px;
+    text-align:left;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif; 
+
+}
+
+.C1
+{
+    text-align: right;
+    position: absolute;
+    width: 800px;
+    margin-top: 0;
+    margin-left: 150px;
+}
+
+h2
+{
+    color: darkorange;
+    font-size: 120px;
+    text-align: center;
+    margin-top: 275px;
+    margin-left: 250px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-one
+{
+    color: whitesmoke;
+    border: 1px solid white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 45px;
+    padding: 2px;
+    
+}
+
+.btn-one:hover
+{
+    background: darkorange;
+}
+
+.btn-two
+{
+    color:whitesmoke;
+    border: 1px solid whitesmoke;
+    text-align: right;
+    text-decoration: none;
+    font-size: 45px;
+    padding: 2px;
+}
+
+.btn-two:hover
+{
+    background: darkorange;
+}
