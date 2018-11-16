@@ -11,14 +11,14 @@ body
 {
     float: right;
     list-style: none;
-    padding: 20px;
-    margin-top: 40px,
+    padding: 10px;
+    margin-top: 0px,
 
 }
 
 .main-nav li
 {
-    display: inline-block;
+    display:inline;
     
 }
 
@@ -26,25 +26,24 @@ body
 {
     color: whitesmoke;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px;
     font-family: "monospace",sans-serif;
-    font-size: 19px;
+    font-size: 12px;
 
 }
 
 .main-nav li.active a
 {
-    border: 1px solid darkorange;
+    border: 2px solid darkorange;
 }
-
 .main-nav li a:hover
 {
-    border: 1px solid darkorange;
+    border: 2px solid darkorange;
 }
 
 .head
 {
-    position: absolute;
+    position: relative;
     width: 1200px;
     margin-left: 0;
     margin-top: 0;
@@ -54,8 +53,8 @@ h1
 {
     color:darkorange;
     font-size: 65px;
-    text-align:left;
-    margin-top: 20px;
+    text-align: left;
+    margin-top: 40px;
     font-family: 'Times New Roman', Times, serif; 
 
 }
@@ -63,7 +62,7 @@ h1
 .C1
 {
     text-align: right;
-    position: absolute;
+    position: relative;
     width: 800px;
     margin-top: 0;
     margin-left: 150px;
@@ -83,7 +82,7 @@ h2
 .btn-one
 {
     color: whitesmoke;
-    border: 1px solid white;
+    border: 2px solid white;
     text-align: center;
     text-decoration: none;
     font-size: 45px;
@@ -99,7 +98,7 @@ h2
 .btn-two
 {
     color:whitesmoke;
-    border: 1px solid whitesmoke;
+    border: 2px solid whitesmoke;
     text-align: right;
     text-decoration: none;
     font-size: 45px;
@@ -108,5 +107,34 @@ h2
 
 .btn-two:hover
 {
-    background: darkorange;
+    background: darkred;
+}
+
+.about
+{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: "fantasy",sans-serif;
+}
+
+h3
+{
+    color: darkorange;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 80px;   
+}
+h4
+{
+    color: darkorange;
+    font-size: 65px;
+    text-align: center;
+}
+.contact-list
+{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
 }
