@@ -1,28 +1,23 @@
 
 body
 {
-    background-image: url(cars2.jpg);
-    height:100vh;
-    background-size: cover;
-    background-position: center;
+    background: url(img/cars2.jpg) fixed;   
 }
-
+/*this is navigation bar*/
 .main-nav
 {
     float: right;
     list-style: none;
     padding: 10px;
     margin-top: 0px,
-
 }
 
 .main-nav li
 {
-    display:inline;
-    
+    display: inline;
 }
 
-.main-nav li a
+.main-nav li a 
 {
     color: whitesmoke;
     text-decoration: none;
@@ -39,14 +34,16 @@ body
 .main-nav li a:hover
 {
     border: 2px solid darkorange;
+    transition: 0.5s;
 }
-
+/*this is the heading*/
 .head
 {
     position: relative;
+    padding: 10px;
     width: 1200px;
     margin-left: 0;
-    margin-top: 0;
+    margin-top: 0px;
 }
 
 h1
@@ -54,20 +51,32 @@ h1
     color:darkorange;
     font-size: 65px;
     text-align: left;
-    margin-top: 40px;
+    margin-top: 10px;
     font-family: 'Times New Roman', Times, serif; 
+    transform: rotate(2deg);
+    animation-name: h1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    text-shadow: 0 0 10px whitesmoke;
 
 }
+@keyframes h1
+{
+    0%{color: darkorange;}
+    50%{color: darkred;}
+    100%{color: darkorange;}
+}
 
-.C1
+/*welcoming intro*/
+.welcome
 {
     text-align: right;
     position: relative;
     width: 800px;
-    margin-top: 0;
+    margin-top: 0px;
     margin-left: 150px;
 }
-
+/*same color style for all h2*/
 h2
 {
     color: darkorange;
@@ -77,16 +86,20 @@ h2
     margin-left: 250px;
     text-transform: uppercase;
     font-family: 'Times New Roman', Times, serif;
+    opacity: 0.8;    
 }
 
+/*buttons to blog and work history*/
 .btn-one
 {
     color: whitesmoke;
     border: 2px solid white;
     text-align: center;
     text-decoration: none;
+    font-family: fantasy;
     font-size: 45px;
     padding: 2px;
+    transition: 0.5s;
     
 }
 
@@ -101,40 +114,87 @@ h2
     border: 2px solid whitesmoke;
     text-align: right;
     text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 45px;
     padding: 2px;
+    transition: 0.5s;
 }
 
 .btn-two:hover
 {
     background: darkred;
 }
-
+/*section about the page and the blogger*/
 .about
 {
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     font-family: "fantasy",sans-serif;
 }
 
 h3
 {
     color: darkorange;
-    font-size: 100px;
+    font-size: 80px;
     text-align: center;
     margin-top: 80px;   
 }
+
 h4
 {
     color: darkorange;
-    font-size: 65px;
+    font-size: 55px;
     text-align: center;
 }
-.contact-list
+/*the selfie*/
+.headshot
 {
-    color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-
+    transform: rotate(90deg) scale(0.5);
+    position: relative;
+    top: 0px;
+    left: 50px;
+    border-radius: 30px; 
+    border: darkorange solid 20px;
+        
 }
+
+/*my blogs styling*/
+
+.reason
+{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+.reason li
+{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
